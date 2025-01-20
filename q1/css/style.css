@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* 回答はここから */
+.inline-box {
+  width: 200px;
+  padding: 20px 0;
+  background: #fff;
+  font-size: 16px;
+}
+.text-align_box {
+  text-align: center;
+}
+.text-align_text {
+  display: inline-block;
+  padding: 10px;
+  background: #a4b3e9;
+}
+.margin_text {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+  background: #a4b3e9;
+}
+.q1--perimeter {
+  display: table;
+  text-align: center;
+}
+.table_box {
+  display: table-cell;
+  vertical-align: middle;
+}
+.table_text {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+  font-size: 16px;
+}
+.flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.flex_text {
+  padding: 10px;
+  background: #fff;
+  font-size: 16px;
+}
+.container {
+  position: relative;
+}
+.position_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: #a4b3e9;
+}
+

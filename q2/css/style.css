@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 回答はここから */
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list-card {
+  width: 200px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
+  padding: 10px;
+  margin-right: 60px;
+  list-style: none;
+}
+.list-card:last-child {
+  margin: 0;
+}
